@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/__tests__/page.testa.jsx", "__mocks__/Provider.mock.tsx", "src/components/FullsizePromoBanner/__tests__/fullsizePromoBanner.test.jsx", "src/hooks/__tests__/useCloseOnClickOutsideRef.test.jsx", "src/hooks/__tests__/useCloseOnClickOutsideRef.test.jsx", "src/components/ToogleVenue/__tests__/ToogleVenue.test.jsx", "src/app/_documnet.js", "src/app/_document.js", "src/components/Hero/__tests__/Hero.testa.jsx"],
+  "exclude": ["node_modules"]
+}
