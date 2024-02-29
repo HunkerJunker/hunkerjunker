@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Experience the vibrant fusion of food, love, and music at Hunker Junker. Located in Söderhamn, Hälsingland, our restaurant offers a delightful mix of street food delicacies, live music performances, and a lively summer dining experience.",
   icons: {
-    icon: "/svg/main_logo_transparent.svg", // /public path
+    icon: "/svg/main_logo_round_transparent.svg", // /public path
   },
 };
 
