@@ -30,6 +30,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <head>
+        <meta
+          name='google-site-verification'
+          content='xgScFpYQyuSOa-xpWX3cE_VE8j4aUW1nLX0ewVo16hw'
+        />
+      </head>
       <StyledComponentsRegistry>
         <body className={` ${anton.variable} ${barlow.variable}`}>
           <ProviderWrapper>{children}</ProviderWrapper>
