@@ -6,4 +6,5 @@ export * from "./ToogleVenue";
 export * from "./Footer";
 export * from "./SocialMediaLinks";
 export * from "./MainSection";
+export * from "./DisplayInfoWithTitle";
 export * from "./SecondaryHeader";
