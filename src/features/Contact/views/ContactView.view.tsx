@@ -4,9 +4,6 @@ import { ContactSection, EachContactInfo } from "../components";
 
 import { SecondaryHeader } from "@/components";
 
-// OBS !!!!!
-// ADD CORRECT MAIL HREF
-//href='mailto:EMILE@SNABELA.COM'
 export const ContactView: FC = () => {
   return (
     <Container id='contact'>
@@ -14,9 +11,9 @@ export const ContactView: FC = () => {
         <SecondaryHeader title='KONTAKT' />
 
         <EachContactInfo title='KONTAKTA OSS'>
-          <A target='_blank'>
+          <A target='_blank' href='mailto:virgincoastcompanyab@gmail.com'>
             <Span>MAIL: </Span>
-            EMILE@SNABELA.COM
+            VIRGINCOASTCOMPANYAB@GMAIL.COM
           </A>
           <Text>
             <Span>TELEFON: </Span>
@@ -38,7 +35,7 @@ export const ContactView: FC = () => {
           </Text>
           <Text>
             <Span>STÖRRE SÄLLSKAP: </Span>
-            VID SÄLLSKAP ÖVER 12 PERSONER TAR VI BOKNINGAR <br /> I MÅN AV TID
+            VID SÄLLSKAP ÖVER 10 PERSONER TAR VI BOKNINGAR. <br /> I MÅN AV TID
             OCH PLATS
           </Text>
         </EachContactInfo>

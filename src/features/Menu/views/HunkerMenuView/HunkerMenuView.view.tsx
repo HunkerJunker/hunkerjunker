@@ -5,7 +5,9 @@ import { hunkerMenu, hunkerMenuSnacks } from "@/data";
 
 import { ToogleVenue } from "@/components";
 
-export const HunkerMenuView: FC = () => {
+export const HunkerMenuView: FC<{
+  showSnacks?: boolean;
+}> = ({ showSnacks = true }) => {
   return (
     <Container id='menu'>
       <MenuSection multipleTitles={true} headerText='MAINS'>
@@ -22,18 +24,20 @@ export const HunkerMenuView: FC = () => {
           );
         })}
       </MenuSection>
-      <MenuSection multipleTitles={true} headerText='SNACKS'>
-        {hunkerMenuSnacks?.map((item, i) => {
-          return (
-            <MenuItem
-              key={i}
-              title={item.title}
-              text={item.text}
-              obsTitle={item.obsTitle}
-            />
-          );
-        })}
-      </MenuSection>
+      {showSnacks && (
+        <MenuSection multipleTitles={true} headerText='SNACKS'>
+          {hunkerMenuSnacks?.map((item, i) => {
+            return (
+              <MenuItem
+                key={i}
+                title={item.title}
+                text={item.text}
+                obsTitle={item.obsTitle}
+              />
+            );
+          })}
+        </MenuSection>
+      )}
     </Container>
   );
 };

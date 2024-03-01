@@ -1,16 +1,14 @@
 "use client";
 import { Footer } from "@/components";
-import { VenueContext } from "@/context";
 import { HeaderView } from "@/features";
 import { Menu } from "@/features/Header/components";
-import React, { FC, useContext } from "react";
+import React, { FC } from "react";
 
 interface Props {
   children: React.ReactNode;
 }
 
 export const MainLayout: FC<Props> = ({ children }) => {
-  const { isGarage } = useContext(VenueContext);
   return (
     <div>
       <HeaderView />

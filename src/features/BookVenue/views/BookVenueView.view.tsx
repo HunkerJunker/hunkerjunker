@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { PrimaryText } from "@/ui";
+import { PrimaryText, StyledLink } from "@/ui";
 import { Container, Title } from "./BookVenueView.style";
 import { MainSection, SecondaryHeader } from "@/components";
 
@@ -10,21 +10,16 @@ export const BookVenueView: FC = () => {
       <MainSection>
         <Title>FÖR FÖRETAG ELLER PRIVAT FEST</Title>
         <PrimaryText
-          text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatum sed, nesciunt quibusdam assumenda dolore, voluptate vel harum officiis ea commodi amet, error eveniet labore debitis laudantium similique nostrum ipsa.
+          text='Boka vår lokal måndag till torsdag för privata eller företagsevent. Skapa minnesvärda stunder med kollegor eller nära och kära i en unik atmosfär. Vår flexibla plats är perfekt för att skapa en minnesvärd upplevelse oavsett tillfälle..
 '
         />
-        <Title>DET GÅR ATT ABONERA SOMMARTID OCH VARDAGAR </Title>
-        <PrimaryText
-          text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatum sed, nesciunt quibusdam assumenda dolore, voluptate vel harum officiis ea commodi amet, error eveniet labore debitis laudantium similique nostrum ipsa.
-'
-        />
+
         <Title>VI HJÄLPER MED LIVE MUSIK</Title>
         <PrimaryText
-          text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatum sed, nesciunt quibusdam assumenda dolore, voluptate vel harum officiis ea commodi amet, error eveniet labore debitis laudantium similique nostrum ipsa.
+          text='Vi hjälper med bokning av livemusik för att skapa en oförglömlig afton
 '
         />
-        <Title>KONTAKT</Title>
-        <PrimaryText text='MAIL: TEST@SNABELA.COM' />
+        <StyledLink href={"/contact"}>Kontakt</StyledLink>
       </MainSection>
     </Container>
   );

@@ -14,12 +14,12 @@ export const HoursView: FC = () => {
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   const openHoursHunkerJunker = [
-    { day: "MÅNDAG", hours: "1100 - SENT" },
-    { day: "TISDAG", hours: "1100 - SENT" },
-    { day: "ONSDAG", hours: "1100 - SENT" },
-    { day: "TORSDAG", hours: "1100 - SENT" },
-    { day: "FREDAG", hours: "1100 - SENT" },
-    { day: "LÖRDAG", hours: "1100 - SENT" },
+    { day: "MÅNDAG", hours: "1200 - SENT" },
+    { day: "TISDAG", hours: "1200 - SENT" },
+    { day: "ONSDAG", hours: "1200 - SENT" },
+    { day: "TORSDAG", hours: "1200 - SENT" },
+    { day: "FREDAG", hours: "1200 - SENT" },
+    { day: "LÖRDAG", hours: "1200 - SENT" },
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   return (
