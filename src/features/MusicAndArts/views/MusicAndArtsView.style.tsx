@@ -19,6 +19,12 @@ export const ExtraInfoText = styled.p`
   margin: 0;
   margin-bottom: 1rem;
 `;
+export const Title = styled.h4`
+  color: ${(props) => props.theme.colors.primary};
+  font-size: calc(1.5rem + 1.5vw);
+  font-family: var(--font-anton);
+  margin: 0;
+`;
 export const Text = styled.p`
   color: white;
   font-family: var(--font-barlow);

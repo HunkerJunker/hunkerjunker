@@ -6,7 +6,6 @@ import {
   DisplayInfoWithTitle,
   Hero,
 } from "@/components";
-import { PrimaryText, PrimaryTitle } from "@/ui";
 import { ImageScrollView } from "@/features";
 
 export const GarageView: FC = () => {
