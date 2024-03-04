@@ -23,4 +23,5 @@ export const A = styled.a`
   text-decoration: none;
   font-family: var(--font-barlow);
   font-size: calc(1.5rem + 0.5vw);
+  word-wrap: break-word;
 `;
