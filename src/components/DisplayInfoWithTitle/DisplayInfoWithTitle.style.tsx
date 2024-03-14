@@ -10,6 +10,7 @@ export const Container = styled.div`
   border: solid 0.05rem black;
   padding: 4rem;
   box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem black;
+  background-color: ${(props) => props.theme.colors.secondary};
   @media (max-width: ${mediaWidth.medium}) {
     width: 90%;
     box-sizing: border-box;
