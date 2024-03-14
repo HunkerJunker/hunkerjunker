@@ -15,10 +15,10 @@ export const ContactView: FC = () => {
             <Span>MAIL: </Span>
             VIRGINCOASTCOMPANYAB@GMAIL.COM
           </A>
-          <Text>
+          {/* <Text>
             <Span>TELEFON: </Span>
             0756-3447525
-          </Text>
+          </Text> */}
           <Text>
             <Span>ADRESS HUNKER JUNKER: </Span>
             NORRA HAMNGATAN 22, SÖDERHAMN
