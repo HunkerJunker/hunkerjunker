@@ -8,9 +8,9 @@ export const ImageScrollView: FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const imagesUrl = [
-    "/images/food.webp",
-    "/images/food_2.webp",
-    "/images/restaurant.webp",
+    "/images/img1.jpg",
+    "/images/img2.jpg",
+    "/images/img3.jpg",
     // "images/view.png",
     // "images/garage.png",
   ];
