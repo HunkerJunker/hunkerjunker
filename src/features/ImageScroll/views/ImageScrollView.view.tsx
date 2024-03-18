@@ -10,7 +10,7 @@ export const ImageScrollView: FC = () => {
   const imagesUrl = [
     "/images/img1.webp",
     "/images/img2.webp",
-    "/images/img3.webp",
+    // "/images/img3.webp",
     "/images/img4.webp",
     "/images/img5.webp",
     "/images/img6.webp",
