@@ -7,7 +7,7 @@ import Image from "next/image";
 interface Props {}
 export const Hero: FC<Props> = () => {
   const { isGarage } = useContext(VenueContext);
-  const videoSrc = isGarage ? "/video/hero_video.mp4" : "/video/hero_video.mp4";
+  const videoSrc = "/video/hero_video.mp4";
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
