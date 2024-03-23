@@ -25,7 +25,7 @@ export const HoursView: FC = () => {
   return (
     <Container>
       <SecondaryHeader title='ÖPPETTIDER' />
-      <MainSection>
+      <MainSection obsText='Extra öppet över påsk, Tors-Lör'>
         <PrimaryTitle title='HUNKER GARAGE' />
         {openHoursGarage.map((each, i) => {
           return (
