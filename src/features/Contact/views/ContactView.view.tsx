@@ -10,10 +10,13 @@ export const ContactView: FC = () => {
       <ContactSection>
         <SecondaryHeader title='KONTAKT' />
 
-        <EachContactInfo title='KONTAKTA OSS'>
-          <A target='_blank' href='mailto:virgincoastcompanyab@gmail.com'>
-            <Span>MAIL: </Span>
-            VIRGINCOASTCOMPANYAB@GMAIL.COM
+        <EachContactInfo
+          title='KONTAKTA OSS'
+          obsTitle='OBS! Telefontider tis-fre 11-17 '
+        >
+          <A href='tel:070-6666482'>
+            <Span>TEL: </Span>
+            070-6666482
           </A>
           {/* <Text>
             <Span>TELEFON: </Span>
@@ -28,7 +31,7 @@ export const ContactView: FC = () => {
             KUNGSGATAN 30, SÖDERHAMN
           </Text>
         </EachContactInfo>
-        <EachContactInfo title='BOKNINGAR' obsTitle='OBS ENDAST DROP IN'>
+        <EachContactInfo title='BOKNINGAR'>
           <Text>
             <Span>DROP IN: </Span>
             VI TAR INGA BOKNINGAR; ENDAST DROP IN
