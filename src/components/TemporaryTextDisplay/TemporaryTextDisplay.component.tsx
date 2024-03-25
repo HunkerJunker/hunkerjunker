@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Container, Text } from "./TemporaryTextDisplay.style";
+import { Container, Text, Span } from "./TemporaryTextDisplay.style";
 type Props = {
   text: string;
 };
