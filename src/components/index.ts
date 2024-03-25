@@ -8,3 +8,4 @@ export * from "./SocialMediaLinks";
 export * from "./MainSection";
 export * from "./DisplayInfoWithTitle";
 export * from "./SecondaryHeader";
+export * from "./TemporaryTextDisplay";

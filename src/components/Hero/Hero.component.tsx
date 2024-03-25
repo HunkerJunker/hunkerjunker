@@ -3,10 +3,11 @@ import { ToogleVenueContainer, Video } from "./Hero.style";
 import { VenueContext } from "@/context";
 import { Parallax } from "react-scroll-parallax";
 import Image from "next/image";
+import { PrimaryText } from "@/ui";
+import { TemporaryTextDisplay } from "..";
 
 interface Props {}
 export const Hero: FC<Props> = () => {
-  const { isGarage } = useContext(VenueContext);
   const videoSrc = "/video/hero_video.mp4";
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -43,12 +44,15 @@ export const Hero: FC<Props> = () => {
             alignItems: "center",
           }}
         >
-          <Image
-            src={"/svg/full_logo.png"}
-            alt='hunker junker logo'
-            width={290}
-            height={190}
-          />
+          <div>
+            <Image
+              src={"/svg/full_logo.png"}
+              alt='hunker junker logo'
+              width={290}
+              height={190}
+            />
+            <TemporaryTextDisplay text='🐰 Glad Påsk 🐰 ' />
+          </div>
         </Parallax>
       </ToogleVenueContainer>
     </>
