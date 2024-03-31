@@ -28,7 +28,7 @@ export const garageMenu: GarageMenu[] = [
   //   obsTitle: "VEGETARISK",
   // },
 ];
-export const garageMenuSnacks = [
+export const garageMenuSnacks: GarageMenu[] = [
   {
     title: "GÄST KOCK 5-6 April",
     text: "Fredag och lördag har vi gästspel från den fantastiska kocken Robin, som kommer att servera sina signaturrätter under två dagar. För mer information om menyn, håll er uppdaterade på Instagram.",
