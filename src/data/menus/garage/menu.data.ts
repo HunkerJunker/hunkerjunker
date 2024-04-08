@@ -5,8 +5,14 @@ type GarageMenu = {
 };
 export const garageMenu: GarageMenu[] = [
   {
-    title: "GÄST KOCK 5-6 April",
-    text: "Fredag och lördag har vi gästspel från den fantastiska kocken Robin, som kommer att servera sina signaturrätter under två dagar. För mer information om menyn, håll er uppdaterade på Instagram.",
+    title: "NY MENY PÅ GÅNG",
+    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
+    obsTitle: "Ny meny på g",
+  },
+  {
+    title: "NY MENY PÅ GÅNG",
+    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
+    obsTitle: "Ny meny på g",
   },
 
   // {
@@ -30,8 +36,14 @@ export const garageMenu: GarageMenu[] = [
 ];
 export const garageMenuSnacks: GarageMenu[] = [
   {
-    title: "GÄST KOCK 5-6 April",
-    text: "Fredag och lördag har vi gästspel från den fantastiska kocken Robin, som kommer att servera sina signaturrätter under två dagar. För mer information om menyn, håll er uppdaterade på Instagram.",
+    title: "NY MENY PÅ GÅNG",
+    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
+    obsTitle: "Ny meny på g",
+  },
+  {
+    title: "NY MENY PÅ GÅNG",
+    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
+    obsTitle: "Ny meny på g",
   },
   // {
   //   title: "MAC AND CHEESE BIES 99KR",
