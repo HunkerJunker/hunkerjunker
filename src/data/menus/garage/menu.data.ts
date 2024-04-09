@@ -5,14 +5,24 @@ type GarageMenu = {
 };
 export const garageMenu: GarageMenu[] = [
   {
-    title: "NY MENY PÅ GÅNG",
-    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
-    obsTitle: "Ny meny på g",
+    title: "Eggplant Parm Sandwich 249kr",
+    text: "Dubbelpanerad friterad auburgine - salsa marinara 48tim - eldad buffel mozarella - picklad rödlök - parmesan - Baugette - olivolja (VEG)",
+    obsTitle: "INNEHÅLLER GLUTEN OCH LAKTOS",
   },
   {
-    title: "NY MENY PÅ GÅNG",
-    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
-    obsTitle: "Ny meny på g",
+    title: "New Orleans Shrimp POBOY Sandwich 259kr",
+    text: "Cajun friterade räkor - chili dust - cajun lime/chili remoulade - isbergssallad - pickles - Baugette",
+    obsTitle: "INNEHÅLLER GLUTEN OCH LAKTOS",
+  },
+  {
+    title: "BAHN MI 249kr",
+    text: "Marinerad bräserad pork belly - vietnamese style paté spread - picklad morot - picklad rättika - rå gurka - koriander  - Bahn mi sauce - Baugette",
+    obsTitle: "INNEHÅLLER GLUTEN OCH LAKTOS",
+  },
+  {
+    title: "BRICK SPRING CHICKEN 299kr",
+    text: "Hel vårkyckling stekt krispig under tegelsten - grillad knipplök - rostad potatis - gremolata - blandade bönor - Citron.",
+    obsTitle: "INNEHÅLLER LAKTOS, (GLUTEN FRI)",
   },
 
   // {
@@ -36,15 +46,26 @@ export const garageMenu: GarageMenu[] = [
 ];
 export const garageMenuSnacks: GarageMenu[] = [
   {
-    title: "NY MENY PÅ GÅNG",
-    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
-    obsTitle: "Ny meny på g",
+    title: "NEW ORLEANS BBQ SHRIMP 155kr",
+    text: "Röda räkor glazed i new orleans style bbq sås - bröd",
+    obsTitle: "INNEHÅLLER LAKTOS OCH GLUTEN",
   },
   {
-    title: "NY MENY PÅ GÅNG",
-    text: "Från och med torsdag den 11e server vi våran nya meny. Håll ögonen öppna snart kommer den menyn för frestning av sinnena",
-    obsTitle: "Ny meny på g",
+    title: "BURNT ENDZ 119kr",
+    text: "Porkbelly, dry rub, lättrökt och glazed. Eld. Dip.",
+    obsTitle: "GLUTEN OCH LAKTOSFRI",
   },
+  {
+    title: "BREAD AND OLIVEOIL DIP 99kr",
+    text: "Surdegsbaguette med allt du vill doppa bröd i.",
+    obsTitle: "LAKTOSFRI",
+  },
+  {
+    title: "CALDO VERDE AND CHISTORRA 99kr",
+    text: "Grön soppa Portuguese style med chistorra korv - bröd",
+    obsTitle: "LAKTOSFRI",
+  },
+
   // {
   //   title: "MAC AND CHEESE BIES 99KR",
   //   text: "Amerikansk side order. Med bourbon och mycke ost. Not Spicy",
