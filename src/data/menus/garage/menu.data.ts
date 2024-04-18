@@ -24,6 +24,10 @@ export const garageMenu: GarageMenu[] = [
     text: "Hel vårkyckling stekt krispig under tegelsten - grillad knipplök - rostad potatis - gremolata - blandade bönor - Citron.",
     obsTitle: "INNEHÅLLER LAKTOS, (GLUTEN FRI)",
   },
+  {
+    title: "FISH AND TATERS 299kr",
+    text: "Smörstekt gös från Hjälmaren - tomatsås med musselbuljong, kapris, oliver och vin - isad fänkål - picklad rödlök - örter - rostad potatis - citron - aska",
+  },
 
   // {
   //   title: "FRENCH DIP SANDWICH 239 kr",
