@@ -8,7 +8,7 @@ export const HoursView: FC = () => {
     { day: "MÅNDAG", hours: "STÄNGT" },
     { day: "TISDAG", hours: "STÄNGT" },
     { day: "ONSDAG", hours: "STÄNGT" },
-    { day: "TORSDAG", hours: "STÄNGT" },
+    { day: "TORSDAG", hours: "1700 - 2300" },
     { day: "FREDAG", hours: "1600 - 0100" },
     { day: "LÖRDAG", hours: "1200 - 0100 " },
     { day: "SÖNDAG", hours: "STÄNGT" },
