@@ -8,26 +8,29 @@ export const HoursView: FC = () => {
     { day: "MÅNDAG", hours: "STÄNGT" },
     { day: "TISDAG", hours: "STÄNGT" },
     { day: "ONSDAG", hours: "STÄNGT" },
-    { day: "TORSDAG", hours: "1700 - SENT" },
-    { day: "FREDAG", hours: "1600 - 0100" },
-    { day: "LÖRDAG", hours: "1600 - 0100 " },
+    { day: "TORSDAG", hours: "STÄNGT" },
+    { day: "FREDAG", hours: "STÄNGT" },
+    { day: "LÖRDAG", hours: "STÄNGT" },
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   const openHoursHunkerJunker = [
-    { day: "MÅNDAG", hours: "1200 - SENT" },
-    { day: "TISDAG", hours: "1200 - SENT" },
-    { day: "ONSDAG", hours: "1200 - SENT" },
-    { day: "TORSDAG", hours: "1200 - SENT" },
-    { day: "FREDAG", hours: "1200 - SENT" },
-    { day: "LÖRDAG", hours: "1200 - SENT" },
-    { day: "SÖNDAG", hours: "STÄNGT" },
+    { day: "Sommar", hours: "Snart öppnar vi för sässongen" },
+    { day: "Håll ut", hours: "Snart öppnar vi för sässongen" },
+    // { day: "ONSDAG", hours: "Snart öppnar vi för sässongen" },
+    // { day: "TORSDAG", hours: "Snart öppnar vi för sässongen" },
+    // { day: "FREDAG", hours: "Snart öppnar vi för sässongen" },
+    // { day: "LÖRDAG", hours: "Snart öppnar vi för sässongen" },
+    // { day: "SÖNDAG", hours: "Snart öppnar vi för sässongen" },
   ];
   return (
     <Container>
       <SecondaryHeader title='ÖPPETTIDER' />
-      <MainSection>
-        <PrimaryTitle title='HUNKER GARAGE' />
-        {openHoursGarage.map((each, i) => {
+
+      <MainSection obsText='OBS! ÖPPET JUNI - AUGUSTI'>
+        <PrimaryTitle title='HUNKER JUNKER' />
+        <ExtraInfoText>Snart öppnar vi för sommaren</ExtraInfoText>
+
+        {openHoursHunkerJunker.map((each, i) => {
           return (
             <Text key={i}>
               <Span>{each.day} </Span>
@@ -36,11 +39,9 @@ export const HoursView: FC = () => {
           );
         })}
       </MainSection>
-      <MainSection obsText='OBS! ÖPPET JUNI - AUGUSTI'>
-        <PrimaryTitle title='HUNKER JUNKER' />
-        <ExtraInfoText>ENDAST JUNI - AUGUSTI</ExtraInfoText>
-
-        {openHoursHunkerJunker.map((each, i) => {
+      <MainSection obsText='Stängt för säsongen'>
+        <PrimaryTitle title='HUNKER GARAGE' />
+        {openHoursGarage.map((each, i) => {
           return (
             <Text key={i}>
               <Span>{each.day} </Span>

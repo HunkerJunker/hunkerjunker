@@ -8,7 +8,7 @@ import { useContext } from "react";
 
 const Home: NextPageWithLayout = () => {
   const { isGarage } = useContext(VenueContext);
-  return <MainLayout>{isGarage ? <GarageView /> : <OceanView />}</MainLayout>;
+  return <MainLayout>{!isGarage ? <GarageView /> : <OceanView />}</MainLayout>;
 };
 
 export default Home;

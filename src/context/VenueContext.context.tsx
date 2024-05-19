@@ -19,7 +19,7 @@ export const VenueContext = createContext<VenueContextInterface>({
 export const VenueContextProvider: FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [isGarage, setIsGarage] = useState(true);
+  const [isGarage, setIsGarage] = useState(false);
   return (
     <VenueContext.Provider value={{ isGarage, setIsGarage }}>
       {children}

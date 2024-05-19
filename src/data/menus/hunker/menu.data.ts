@@ -1,8 +1,8 @@
 export const hunkerMenu = [
   {
-    title: "Sommarmeny juni - aug",
-    text: "Vinterhalvåret serverar vi våran garagemeny på Hunker Garage som du hittar på kungsgatan 30, Söderhamn",
-    obsTitle: "Sommarmeny juni - aug",
+    title: "Snart öppnar vi för sommaren i hamnen",
+    text: "Håll ögonen öppna för premiär dtaum, snart öppnar vi för sommarsäsong",
+    obsTitle: "Snart öppnar vi för sommarsäsongen hamnen ",
   },
 ];
 export const hunkerMenuSnacks = [
