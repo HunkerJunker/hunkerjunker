@@ -14,8 +14,8 @@ export const HoursView: FC = () => {
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   const openHoursHunkerJunker = [
-    { day: "Sommar", hours: "Snart öppnar vi för sässongen" },
-    { day: "Håll ut", hours: "Snart öppnar vi för sässongen" },
+    { day: "Sommar", hours: "Snart öppnar vi för säsongen" },
+    { day: "Håll ut", hours: "Snart öppnar vi för säsongen" },
     // { day: "ONSDAG", hours: "Snart öppnar vi för sässongen" },
     // { day: "TORSDAG", hours: "Snart öppnar vi för sässongen" },
     // { day: "FREDAG", hours: "Snart öppnar vi för sässongen" },
