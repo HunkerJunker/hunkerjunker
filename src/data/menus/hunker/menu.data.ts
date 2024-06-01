@@ -1,8 +1,8 @@
 export const hunkerMenu = [
   {
-    title: "Snart öppnar vi för sommaren i hamnen",
-    text: "Håll ögonen öppna för premiär dtaum, snart öppnar vi för sommarsäsong",
-    obsTitle: "Snart öppnar vi för sommarsäsongen hamnen ",
+    title: "11 Juni öppnar vi för sommaren",
+    text: "När händer de? 11 Juni!!!! ",
+    obsTitle: "11 Juni syns vi i hamnen!",
   },
 ];
 export const hunkerMenuSnacks = [

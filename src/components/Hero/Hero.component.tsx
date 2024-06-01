@@ -29,9 +29,9 @@ export const Hero: FC<Props> = () => {
         muted
         playsInline
         ref={videoRef}
-        data-testid='bg_video'
+        data-testid="bg_video"
       >
-        <source src={videoSrc} data-testid='video_source' />
+        <source src={videoSrc} data-testid="video_source" />
       </Video>
 
       <ToogleVenueContainer>
@@ -47,11 +47,11 @@ export const Hero: FC<Props> = () => {
           <div>
             <Image
               src={"/svg/full_logo.png"}
-              alt='hunker junker logo'
+              alt="hunker junker logo"
               width={290}
               height={190}
             />
-            {/* <TemporaryTextDisplay text='🍲 Ny meny 🍲' /> */}
+            <TemporaryTextDisplay text="☀️ 11 Juni ☀️" />
           </div>
         </Parallax>
       </ToogleVenueContainer>
