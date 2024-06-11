@@ -7,7 +7,7 @@ import { useContext } from "react";
 const Menu: NextPageWithLayout = () => {
   const { isGarage } = useContext(VenueContext);
   return (
-    <>{isGarage ? <GarageMenuView /> : <HunkerMenuView showSnacks={false} />}</>
+    <>{isGarage ? <GarageMenuView /> : <HunkerMenuView showSnacks={true} />}</>
   );
 };
 

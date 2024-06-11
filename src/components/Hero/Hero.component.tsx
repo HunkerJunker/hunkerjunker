@@ -51,7 +51,7 @@ export const Hero: FC<Props> = () => {
               width={290}
               height={190}
             />
-            <TemporaryTextDisplay text="☀️ 11 Juni ☀️" />
+            <TemporaryTextDisplay text="☀️" />
           </div>
         </Parallax>
       </ToogleVenueContainer>

@@ -14,21 +14,20 @@ export const HoursView: FC = () => {
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   const openHoursHunkerJunker = [
-    { day: "Sommar", hours: "Snart öppnar vi för säsongen" },
-    { day: "Håll ut", hours: "Snart öppnar vi för säsongen" },
-    // { day: "ONSDAG", hours: "Snart öppnar vi för sässongen" },
-    // { day: "TORSDAG", hours: "Snart öppnar vi för sässongen" },
-    // { day: "FREDAG", hours: "Snart öppnar vi för sässongen" },
-    // { day: "LÖRDAG", hours: "Snart öppnar vi för sässongen" },
-    // { day: "SÖNDAG", hours: "Snart öppnar vi för sässongen" },
+    { day: "MÅNDAG", hours: "STÄNGT" },
+    { day: "TISDAG", hours: "11 - 23" },
+    { day: "ONSDAG", hours: "11 - 23" },
+    { day: "TORSDAG", hours: "11 - 23" },
+    { day: "FREDAG", hours: "11 - 23" },
+    { day: "LÖRDAG", hours: "12 - 23" },
+    { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   return (
     <Container>
       <SecondaryHeader title="ÖPPETTIDER" />
 
-      <MainSection obsText="OBS! 11 Juni öppnar vi!!">
+      <MainSection obsText="">
         <PrimaryTitle title="HUNKER JUNKER" />
-        <ExtraInfoText>Öppnar 11 Juni</ExtraInfoText>
 
         {openHoursHunkerJunker.map((each, i) => {
           return (
