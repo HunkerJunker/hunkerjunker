@@ -5,17 +5,15 @@ type GarageMenu = {
 };
 export const garageMenu: GarageMenu[] = [
   {
-    title:
-      "Garage är stängt under sommaren, Istället kör vi våran utesevrvering i hamnen under sommaren",
+    title: "Vi tar lite semester syns i slutet av september igen",
     text: "",
-    obsTitle: "Hunker down and make a friend",
+    obsTitle: "Tack för en magisk sommar",
   },
 ];
 export const garageMenuSnacks: GarageMenu[] = [
   {
-    title:
-      "Garage är stängt under sommaren, Istället kör vi våran utesevrvering i hamnen under sommaren",
+    title: "Vi tar semester lite syns i slutet av september igen",
     text: "",
-    obsTitle: "Hunker down and make a friend",
+    obsTitle: "Tack för en magisk sommar",
   },
 ];

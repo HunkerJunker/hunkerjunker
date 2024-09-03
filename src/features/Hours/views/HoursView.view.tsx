@@ -15,21 +15,20 @@ export const HoursView: FC = () => {
   ];
   const openHoursHunkerJunker = [
     { day: "MÅNDAG", hours: "STÄNGT" },
-    { day: "TISDAG", hours: "11 - 23" },
-    { day: "ONSDAG", hours: "11 - 23" },
-    { day: "TORSDAG", hours: "11 - 23" },
-    { day: "FREDAG", hours: "11 - 23" },
-    { day: "LÖRDAG", hours: "12 - 23" },
+    { day: "TISDAG", hours: "STÄNGT" },
+    { day: "ONSDAG", hours: "STÄNGT" },
+    { day: "TORSDAG", hours: "STÄNGT" },
+    { day: "FREDAG", hours: "STÄNGT" },
+    { day: "LÖRDAG", hours: "STÄNGT" },
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   return (
     <Container>
       <SecondaryHeader title="ÖPPETTIDER" />
 
-      <MainSection obsText="">
-        <PrimaryTitle title="HUNKER JUNKER" />
-
-        {openHoursHunkerJunker.map((each, i) => {
+      <MainSection obsText="Öppnar i slutet av september">
+        <PrimaryTitle title="HUNKER GARAGE" />
+        {openHoursGarage.map((each, i) => {
           return (
             <Text key={i}>
               <Span>{each.day} </Span>
@@ -38,9 +37,10 @@ export const HoursView: FC = () => {
           );
         })}
       </MainSection>
-      <MainSection obsText="Stängt för säsongen">
-        <PrimaryTitle title="HUNKER GARAGE" />
-        {openHoursGarage.map((each, i) => {
+      <MainSection obsText="Tack för i sommar">
+        <PrimaryTitle title="HUNKER JUNKER" />
+
+        {openHoursHunkerJunker.map((each, i) => {
           return (
             <Text key={i}>
               <Span>{each.day} </Span>
