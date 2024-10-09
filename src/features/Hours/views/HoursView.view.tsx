@@ -9,8 +9,8 @@ export const HoursView: FC = () => {
     { day: "TISDAG", hours: "STÄNGT" },
     { day: "ONSDAG", hours: "STÄNGT" },
     { day: "TORSDAG", hours: "STÄNGT" },
-    { day: "FREDAG", hours: "STÄNGT" },
-    { day: "LÖRDAG", hours: "STÄNGT" },
+    { day: "FREDAG", hours: "17:00-01:00" },
+    { day: "LÖRDAG", hours: "17:00-01:00" },
     { day: "SÖNDAG", hours: "STÄNGT" },
   ];
   const openHoursHunkerJunker = [
@@ -25,8 +25,7 @@ export const HoursView: FC = () => {
   return (
     <Container>
       <SecondaryHeader title="ÖPPETTIDER" />
-
-      <MainSection obsText="Öppnar i slutet av september">
+      <MainSection obsText="Kom o häng">
         <PrimaryTitle title="HUNKER GARAGE" />
         {openHoursGarage.map((each, i) => {
           return (
@@ -37,7 +36,7 @@ export const HoursView: FC = () => {
           );
         })}
       </MainSection>
-      <MainSection obsText="Tack för i sommar">
+      <MainSection obsText="">
         <PrimaryTitle title="HUNKER JUNKER" />
 
         {openHoursHunkerJunker.map((each, i) => {
@@ -49,6 +48,7 @@ export const HoursView: FC = () => {
           );
         })}
       </MainSection>
+
     </Container>
   );
 };
